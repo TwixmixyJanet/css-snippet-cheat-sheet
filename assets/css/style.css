@@ -1,3 +1,48 @@
+
 :root {
+    --background-color: grey;
+    --purple:purple;
+    --white:white;
+    --basic-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --code-font:
     /* set all of the base colors and functions here */
+
+}
+* {
+    font-family: var(--basic-font);
+}
+
+body {
+    background-color: var(--background-color);
+}
+header, footer {
+    padding: 1pt;
+}
+div {border-style: dotted;}
+
+h2 {
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+
+p {
+    background-color: transparent;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 780px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 200px;
+    border: 1px dashed var(--white);
+
 }
